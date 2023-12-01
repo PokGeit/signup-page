@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:ital,wght@1,900&family=Vina+Sans&display=swap');
+
+div {
+    /*border: 1px solid red;*/
+}
+
+#chicken_photo{
+    width: 30vw;
+    height: 100vh;
+    background:url(img/photo_chicken.jpg);
+}
+
+#mainBody {
+    background-color: #F7F7F7;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mainText {
+    font-size: 1.5em;
+    width: clamp(10vw, 70ch, 60vw);
+}
+
+#formBody{
+    background-color: #ffffff;
+    width: 68vw;
+    height: 45vh;
+}
+
+#mainBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100vw;
+    height: 100vh;
+}
+
+#logoBox {
+    height: 20vh;
+    width: 30vw;
+    background-color: rgb(0,0,0, 0.6);
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+}
+
+#logoText {
+    font-size: 6em;
+    color: aliceblue;
+    margin-top: 0.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vina Sans', sans-serif;
+    font-weight: 800;
+
+}
+
+#photoFooter {
+    position: absolute;
+    width: 30vw;
+    bottom: 25px;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+}
